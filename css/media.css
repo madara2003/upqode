@@ -1,0 +1,136 @@
+/* Desktop styles */
+@media (max-width: 1500px) { 
+    .slick-prev {
+        left: 10px;  
+     }
+     .slick-next {
+        right: 10px;
+     }
+}
+@media (max-width: 1240px) { 
+     .header__container {
+         width: 1024px;
+     }
+     .banner__slogan {
+         font-size: 70px;        
+     }
+     .slick-prev {
+        left: 90px;  
+     }
+     .slick-next {
+        right: 90px;
+     }
+ }
+ @media (max-width: 1200px) {
+    .service__container {
+         width: 1024px;
+    }
+ 
+ }
+
+ @media (max-width: 1165px) {
+     .slider__container {
+         width: 1024px;
+     }
+ }
+ /* Tablest styles */
+ @media (max-width: 1024px) {
+    .slider__container {
+        flex-direction: column;
+    }
+    .slider-nav {
+        order:1;
+    }
+    .slider-for {
+        order: 2;
+    }
+    .slick-next-one {
+        left: 400px;
+    }
+    .slider-info {
+        padding-right: 50px;
+    }
+     .header__container {
+         width: 830px;
+         padding-left: 30px;
+         padding-right: 30px;
+     }
+     .banner__slogan  {
+         font-size: 50px;
+     }
+     .banner__content {
+         width: 700px;
+     }
+     .banner__text {
+         font-size: 14px;
+         margin-bottom: 40px;
+     }
+     .btn {
+         padding: 10px 16px;
+         font-size:  13px;
+     }
+     .slick-prev {
+        left: 20px;  
+     }
+     .slick-next {
+        right: 20px;
+     }
+     .menu-burgger {
+         display: flex;
+     }
+     .menu {
+         display: none;
+     }
+     .logo_modifier {
+        width: 200px;
+        height: 30px;
+     }
+     .service__container {
+        grid-template-columns: 1fr;
+        width: 769px;
+   }
+   .service__container::before {
+       display: none;
+   }
+   .grid-item:nth-child(1) { order: 2; }
+   .grid-item:nth-child(2) { order: 1; }
+   .grid-item:nth-child(3) { order: 4; }
+   .grid-item:nth-child(4) { order: 3; }
+   .grid-item:nth-child(5) { order: 6; }
+   .grid-item:nth-child(6) { order: 5; }
+ }
+
+ @media (max-width: 769px) {
+    .hightlight {
+        font-size: 30px;
+    }
+    .text {
+        font-size: 14px;
+    }
+    .header__container {
+        width: 600px;
+    }
+    .banner__slogan {
+        line-height: 40px;
+        font-size: 36px;
+    }
+    .banner__content {
+        width: 460px;
+    }
+ }
+ @media (max-width: 600px) {
+  
+    .header__container {
+        width: 600px;
+        justify-content:space-evenly;
+    }
+    .banner__content {
+        width: 460px;
+    }
+    .slick-prev {
+        left: 10px;  
+     }
+     .slick-next {
+        right: 10px;
+     }
+ }
